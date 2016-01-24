@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE struts PUBLIC
+
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+
+<struts>
+
+
+    <!-- 支持动态调用 -->
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+
+    <!-- 设置开发模式 -->
+
+    <constant name="struts.devMode" value="true"/>
+
+
+    <package name="struts2" extends="struts-default">
+        <!-- 全局 异常处理 -->
+        <global-results>
+            <result name="error">/error.jsp</result>
+        </global-results>
+    </package>
+
+    <package name="front" namespace="/" extends="struts2">
+        <action name="user" class="hello.HelloAction" method="hello">
+            <result name="success">/index.jsp</result>
+        </action>
+    </package>
+    <!--查询结果-->
+    <package name="first" namespace="/first" extends="struts2">
+        <action name="show" class="action.ResultAction" method="show">
+            <result name="show">/show.jsp</result>
+        </action>
+    </package>
+    <!--登录-->
+    <package name="login" namespace="/login" extends="struts2">
+        <action name="loginaction" class="action.LoginAction" method="check">
+            <result name="wrong">/usererror.jsp</result>
+            <result name="success" type="redirect">/v2.2front/index.jsp</result>
+        </action>
+    </package>
+    <!--注册-->
+    <package name="regist" namespace="/regist" extends="struts2">
+        <action name="registaction" class="action.RegistAction" method="regist">
+            <result name="success">/registsuccess.jsp</result>
+            <result name="wrong">/registwrong.jsp</result>
+        </action>
+    </package>
+
+
+</struts>
