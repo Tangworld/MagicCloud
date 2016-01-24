@@ -1,13 +1,13 @@
 package utils;
 
-import org.junit.Test;
+//import org.h
 import service.HbaseService;
 
 /**
  * Created by hadoop on 15-12-18.
  */
 public class CreateData {
-    @Test
+//    @Test
     public void create() throws Exception {
         for(int i=0;i<10;i++)
         {
@@ -17,7 +17,7 @@ public class CreateData {
 
     //产生模拟数据：行键为城市名字，列名是数据的哈希码，数据为
 //    网站+产品名称+价格的字符串拼接结果
-    @Test
+//    @Test
     public void createFormatData() throws Exception {
 
         String data;
