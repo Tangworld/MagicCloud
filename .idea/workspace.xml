@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7c96029-c081-480c-b47a-4bc3e82c9e11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/CreateData.class" afterPath="$PROJECT_DIR$/target/classes/utils/CreateData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/CreateTable.class" afterPath="$PROJECT_DIR$/target/classes/utils/CreateTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/CreateData.java" afterPath="$PROJECT_DIR$/src/main/java/utils/CreateData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/CreateTable.java" afterPath="$PROJECT_DIR$/src/main/java/utils/CreateTable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-    </list>
+    <list default="true" id="c7c96029-c081-480c-b47a-4bc3e82c9e11" name="Default" comment="" />
     <ignored path="try.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -767,12 +761,12 @@
       <workItem from="1453621557970" duration="300000" />
       <workItem from="1453621883347" duration="211000" />
       <workItem from="1453622107654" duration="1913000" />
-      <workItem from="1453624618571" duration="356000" />
+      <workItem from="1453624618571" duration="1103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53680000" />
+    <option name="totallyTimeSpent" value="54427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
