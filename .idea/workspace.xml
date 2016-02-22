@@ -2,7 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7c96029-c081-480c-b47a-4bc3e82c9e11" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/admin/search/example.html" afterPath="$PROJECT_DIR$/src/main/webapp/admin/search/example.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/AdminClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/AdminClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/ChildrenCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/ChildrenCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Client$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Client$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Client$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Client$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Client$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Client$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Client$TaskObject.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$TaskObject.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Client.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/FirstUrl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/FirstUrl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Master$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Master$10.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$10.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Master$11.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$11.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Master$12.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$12.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Master$13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Master$14.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$14.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Master$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Master$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Master$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Master$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Master$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Master$7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Master$8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Master$9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Master$MasterStates.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$MasterStates.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Master.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/Processor/RulesProcessor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Processor/RulesProcessor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/StartSpider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/StartSpider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/TaskToClient$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/TaskToClient$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/TaskToClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/TaskToClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Worker$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Worker$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Worker$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Worker$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Worker$5$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$5$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Worker$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Worker$6$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$6$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Worker$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Worker$7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Worker$8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Worker$9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Worker.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MagicCloud/MasterWorkerFrame/AdminClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MagicCloud/MasterWorkerFrame/ChildrenCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MagicCloud/MasterWorkerFrame/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MagicCloud/MasterWorkerFrame/FirstUrl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MagicCloud/MasterWorkerFrame/Master.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MagicCloud/Processor/RulesProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MagicCloud/StartSpider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MagicCloud/TaskToClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MagicCloud/MasterWorkerFrame/Worker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MagicCloud/Processor/SearchProcessor.class" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/Processor/SearchProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Processor/SearchProcessor.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Processor/SearchProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MagicCloud/Processor/SearchProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/MagicCloud/Processor/SearchProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/try.iml" afterPath="$PROJECT_DIR$/try.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="try.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,11 +198,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="example.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="example.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/search/example.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27513227">
+            <state vertical-scroll-proportion="-1.5294118">
               <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46506023">
+              <caret line="1470" column="23" selection-start-line="1470" selection-start-column="23" selection-end-line="1470" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -138,6 +248,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/error.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/template/moban610/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/logging.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/usererror.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/hello/Student.java" />
@@ -149,6 +261,7 @@
         <option value="$PROJECT_DIR$/src/main/java/action/RegistAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/v2.2front/js/TMForm.js" />
         <option value="$PROJECT_DIR$/src/main/java/utils/createtable.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/TestMysql.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/registwrong.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/registsuccess.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/dao/MysqlRegistDao.java" />
@@ -175,20 +288,12 @@
         <option value="$PROJECT_DIR$/src/main/webapp/v2.2front/regist.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/v2.2front/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/dao/HbaseDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestMysql.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/IndexShowAction.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/CreateData.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/CreateTable.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/assets/tools/ant/etc/coverage-frames.xsl" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/assets/tools/ant/etc/jdepend-frames.xsl" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/assets/tools/ant/etc/junit-frames-xalan1.xsl" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/assets/tools/ant/etc/junit-frames.xsl" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/assets/tools/ant/etc/maudit-frames.xsl" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/assets/tools/ant/etc/mmetrics-frames.xsl" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/assets/tools/ant/etc/checkstyle/checkstyle-frames.xsl" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/search/example.html" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/CreateData.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/MagicCloud/Processor/SearchProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MagicCloud/StartSpider.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -318,6 +423,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="v2.2front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagicCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagicCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -392,11 +523,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagicCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MagicCloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -409,34 +554,37 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../try" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/MagicCloud" />
+      <recent name="$PROJECT_DIR$/src/main/java/MagicCloud/Processor" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/webapp/v1.9php" />
       <recent name="$PROJECT_DIR$/src/main/webapp/v2.2front" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/v2.2front" />
       <recent name="$PROJECT_DIR$/src/main/webapp/decorate" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="hello" />
-    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.admin.jsp">
-    <configuration default="false" name="login.jsp (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8081/try/v2.2front/login.jsp">
+  <component name="RunManager" selected="JavaScript Debug.index.jsp">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/moban216/index.html">
       <method />
     </configuration>
-    <configuration default="false" name="admin.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/admin/admin.jsp" />
+    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8088/try/moban216/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.jsp (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8088/try/v2.2front/index.jsp">
+      <method />
+    </configuration>
+    <configuration default="false" name="show.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/show.jsp" />
       <deployment>
         <artifact name="try:war exploded">
           <settings>
@@ -445,7 +593,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="admin_jsp_MagicCloud" />
+        <option name="BASE_DIRECTORY_NAME" value="show_jsp_MagicCloud" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -474,13 +622,7 @@
         </option>
       </method>
     </configuration>
-    <configuration default="false" name="admin.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/admin/admin.jsp">
-      <method />
-    </configuration>
     <configuration default="false" name="index.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/v2.2front/index.jsp">
-      <method />
-    </configuration>
-    <configuration default="false" name="example.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/admin/search/example.html">
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -729,22 +871,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="XSLT" factoryName="XSLT">
-      <option name="myOutputFile" />
-      <option name="myOpenOutputFile" value="false" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" />
-      <option name="myWorkingDirectory" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="XML" />
-      <JdkChoice value="FROM_MODULE" />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -764,7 +890,6 @@
       <method />
     </configuration>
     <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/try/" />
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -777,8 +902,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_try_2" />
-        <option name="HTTP_PORT" value="8081" />
-        <option name="JNDI_PORT" value="1097" />
+        <option name="JNDI_PORT" value="1098" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -839,19 +963,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.login.jsp" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.login.jsp (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.admin.jsp" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.admin.jsp" />
-      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.index.jsp" />
-      <item index="6" class="java.lang.String" itemvalue="JavaScript Debug.example.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.jsp (2)" />
+      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.show.jsp" />
+      <item index="6" class="java.lang.String" itemvalue="JavaScript Debug.index.jsp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.admin.jsp" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.example.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.jsp" />
-        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.admin.jsp" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.login.jsp (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.jsp" />
+        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.show.jsp" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.jsp (2)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -885,18 +1009,16 @@
       <workItem from="1453621883347" duration="211000" />
       <workItem from="1453622107654" duration="1913000" />
       <workItem from="1453624618571" duration="1103000" />
-      <workItem from="1453635361716" duration="362000" />
-      <workItem from="1453635810813" duration="3724000" />
-      <workItem from="1456100233287" duration="3663000" />
+      <workItem from="1456101154456" duration="1421000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62176000" />
+    <option name="totallyTimeSpent" value="55881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -904,13 +1026,13 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37931034" sideWeight="0.50269026" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298351" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298351" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38230884" sideWeight="0.49730977" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29669484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29669484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33433282" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -918,7 +1040,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28335834" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28335834" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1279,8 +1401,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/search/example.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27513227">
+        <state vertical-scroll-proportion="-1.5294118">
           <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46506023">
+          <caret line="1470" column="23" selection-start-line="1470" selection-start-column="23" selection-end-line="1470" selection-end-column="23" />
           <folding />
         </state>
       </provider>
