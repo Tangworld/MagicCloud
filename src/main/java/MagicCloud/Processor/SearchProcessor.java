@@ -20,12 +20,6 @@ public class SearchProcessor implements PageProcessor {
 
 
 
-//    public static class processMapper extends Mapper<Text,Text,Text,Text>{
-//
-//        public void map(Text text, Text text2) throws IOException {
-//
-//        }
-//    }
 
 
 
