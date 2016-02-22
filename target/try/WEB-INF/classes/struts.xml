@@ -53,5 +53,11 @@
         </action>
     </package>
 
+    <package name="indexshow" namespace="/indexshow" extends="struts2">
+        <action name="indexshowaction" class="hello.IndexShowAction" method="getinfo">
+                <result  name="success">/v2.2front/index.jsp</result>
+        </action>
+    </package>
+
 
 </struts>

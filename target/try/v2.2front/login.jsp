@@ -119,7 +119,7 @@
                             <div class="input-group">
                                 <!--<label for="examInputEmail1">邮箱:</label>-->
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-                                <input type="email" class="form-control input-lg" id="examInputEmail1" placeholder="请输入您的用户名"/>
+                                <input type="email" name="username" class="form-control input-lg" id="examInputEmail1" placeholder="请输入您的用户名"/>
                             </div>
                         </div>
                     </div>
@@ -128,7 +128,7 @@
                         <div class="col-xs-12">
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-                                <input type="password" class="form-control input-lg" id="examInputPassword1" placeholder="请输入您的密码"/>
+                                <input type="password" name="password" class="form-control input-lg" id="examInputPassword1" placeholder="请输入您的密码"/>
                             </div>
                         </div>
                         <!--<label for="examInputPassword1">密码:</label>-->
@@ -146,7 +146,7 @@
                                 <a href="regist.jsp"><button type="button" class="btn btn-lg btn-default">没有账号？</button></a>
                                 <!--</div>-->
                             <!--</div>-->
-                        </div>
+                        <%--</div>--%>
                         <!--<button class="btn btn-primary" type="button">点击我</button>-->
                     </div>
                 </form>

@@ -8,44 +8,44 @@
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no"/>
     <!--手机不允许缩放-->
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="${pageContext.request.contextPath}/v2.2front/images/favicon.ico">
     <!--找不到这个可能是网站站点的图标-->
-    <link rel="shortcut icon" href="images/favicon.ico"/>
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/v2.2front/images/favicon.ico"/>
 
-    <link rel="stylesheet" href="css/animation.css">
-    <link rel="stylesheet" href="css/camera.css">
-    <link rel="stylesheet" href="css/contact-form.css">
-    <link rel="stylesheet" href="css/touchTouch.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/v2.2front/css/animation.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/v2.2front/css/camera.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/v2.2front/css/contact-form.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/v2.2front/css/touchTouch.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/v2.2front/css/style.css">
 
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="${pageContext.request.contextPath}/v2.2front/js/jquery.js"></script>
+    <script src="${pageContext.request.contextPath}/v2.2front/js/jquery-migrate-1.1.1.js"></script>
     <!--让你在原来代码上升级jquery 不用修改代码用的-->
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/jquery.ui.totop.js"></script>
+    <script src="${pageContext.request.contextPath}/v2.2front/js/jquery.easing.1.3.js"></script>
+    <script src="${pageContext.request.contextPath}/v2.2front/js/script.js"></script>
+    <script src="${pageContext.request.contextPath}/v2.2front/js/jquery.ui.totop.js"></script>
     <!--回到顶部的插件-->
-    <script src="js/touchTouch.jquery.js"></script>
-    <script src="js/isotope.pkgd.js"></script>
-    <script src="js/TMForm.js"></script>
-    <script src="js/modal.js"></script>
-    <script src="js/camera.js"></script>
+    <script src="${pageContext.request.contextPath}/v2.2front/js/touchTouch.jquery.js"></script>
+    <script src="${pageContext.request.contextPath}/v2.2front/js/isotope.pkgd.js"></script>
+    <script src="${pageContext.request.contextPath}/v2.2front/js/TMForm.js"></script>
+    <script src="${pageContext.request.contextPath}/v2.2front/js/modal.js"></script>
+    <script src="${pageContext.request.contextPath}/v2.2front/js/camera.js"></script>
     <!--[if (gt IE 9)|!(IE)]><!-->
-    <script src="js/jquery.mobile.customized.min.js"></script>
+    <script src="${pageContext.request.contextPath}/v2.2front/js/jquery.mobile.customized.min.js"></script>
     <!--？？手机相关吧-->
 
     <!--bootstrap与登录框部分部分-->
-    <link rel="stylesheet" href="./css/bootstrap.css"/>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/v2.2front/css/bootstrap.css"/>
     <!--这里有些奇怪？min与大的区别只有数据量的区别-->
-    <link rel="stylesheet" href="./css/loging.css"/>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/v2.2front/css/loging.css"/>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <!-- bootstrap end-->
 
     <!--搜索框部分-->
     <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.js"></script> -->
     <!-- <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> -->
-    <script type="text/javascript" src="./js/area.js"></script>
-    <link rel="stylesheet" href="./css/area.css" type="text/css"/>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/v2.2front/js/area.js"></script>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/v2.2front/css/area.css" type="text/css"/>
 
 
     <!-- <link rel="stylesheet" href="./css/reset.css" type="text/css" /> -->
@@ -54,14 +54,14 @@
 
     <!--city城市控件-->
     <!-- -->
-    <link rel="stylesheet" href="css/city/cityStyle.css"/>
-    <script type="text/javascript" src="js/city/cityScript.js"></script>
-    <script type="text/javascript" src="js/city/lazyload-min.js"></script>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/v2.2front/css/city/cityStyle.css"/>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/v2.2front/js/city/cityScript.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/v2.2front/js/city/lazyload-min.js"></script>
     <!-- -->
     <!--city   控件end-->
 
     <!--基本css-->
-    <link rel="stylesheet" href="./css/myqd/index.css"/>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/v2.2front/css/myqd/index.css"/>
     <!--基本css结束-->
 
 
@@ -116,8 +116,8 @@
     </div>
     <![endif]-->
     <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <link rel="stylesheet" media="screen" href="css/ie.css">
+    <script src="${pageContext.request.contextPath}/v2.2front/js/html5shiv.js"></script>
+    <link rel="stylesheet" media="screen" href="${pageContext.request.contextPath}/v2.2front/css/ie.css">
     <![endif]-->
 </head>
 <body>
@@ -134,19 +134,19 @@
                     <div class="row">
                         <div class="col-md-2">
                             <h1 class="logo_head">
-                                <a href="index.jsp">MagicCloud</a>
+                                <a href="${pageContext.request.contextPath}/v2.2front/index.jsp">MagicCloud</a>
                                 <!--<p>Magic Cloud</p>-->
                             </h1>
                         </div>
                         <div class="col-md-6" style="padding-top: 20px">
-                            <form class="form-inline" action="result.html">
+                            <form class="form-inline" action="${pageContext.request.contextPath}/v2.2front/result.html">
                                 <!--<div style="display: inline">-->
                                 <!--<label for="exampleInputName2">出发城市</label>-->
                                 <!--&lt;!&ndash;<input type="text" class="form-control" id="exampleInputName2" placeholder="南京">&ndash;&gt;-->
                                 <!--<input type="text" class="form-control" placeholder="请输入城市名" aria-describedby="basic-addon1" id="inputTest" style="width: 200px;">-->
                                 <!--</div>-->
                                 <!--<span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>-->
-                                <img src="./images/icon/position.png" alt="" height="35px" width="35px"/>
+                                <img src="${pageContext.request.contextPath}/v2.2front/images/icon/position.png" alt="" height="35px" width="35px"/>
                                 <lable id="current-city">南京</lable>
                                 <div style="display: inline">
                                     <!--<label for="exampleInputEmail2">目的城市</label>-->
@@ -165,8 +165,8 @@
                                 <ul>
                                     <li><a href="#home" class="current">主页</a></li>
                                     <!--<li><a href="#skills" onclick="window.location.href='result.html'">搜索</a></li>-->
-                                    <li><a href="#" onclick="window.location.href='login.jsp'">登录</a></li>
-                                    <li><a href="#" onclick="window.location.href='regist.jsp'">注册</a></li>
+                                    <li><a href="#" onclick="window.location.href='${pageContext.request.contextPath}/v2.2front/login.jsp'">登录</a></li>
+                                    <li><a href="#" onclick="window.location.href='${pageContext.request.contextPath}/v2.2front/regist.jsp'">注册</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -235,21 +235,21 @@
 
                 <div class="banner-right">
                     <div id="camera_wrap" style="background-size: 100%;">
-                        <div data-src="images/img-fj/1.jpg">
+                        <div data-src="${pageContext.request.contextPath}/v2.2front/images/img-fj/1.jpg">
                             <div class="caption fadeIn">Yesterday is History</div>
                         </div>
-                        <div data-src="images/img-fj/2.jpg">
+                        <div data-src="${pageContext.request.contextPath}/v2.2front/images/img-fj/2.jpg">
                             <div class="caption fadeIn">Tomorrow is a Mystery</div>
                         </div>
-                        <div data-src="images/img-fj/3.jpg">
+                        <div data-src="${pageContext.request.contextPath}/v2.2front/images/img-fj/3.jpg">
                             <div class="caption fadeIn">Today is a Gift</div>
                         </div>
-                        <div data-src="images/img-fj/4.jpg">
+                        <div data-src="${pageContext.request.contextPath}/v2.2front/images/img-fj/4.jpg">
                             <div class="caption fadeIn">That's Why We Call It The Present<span class="bull"></span> Best
                                 <span class="bull"></span> Present
                             </div>
                         </div>
-                        <div data-src="images/img-fj/6.jpg">
+                        <div data-src="${pageContext.request.contextPath}/v2.2front/images/img-fj/6.jpg">
                             <div class="caption fadeIn">Let's Go</div>
                         </div>
                     </div>
@@ -298,11 +298,27 @@
                                             <!--<p>-->
                                             <!--第一部分内容.-->
                                             <!--</p>-->
+                                            <form action="${pageContext.request.contextPath}/indexshow/indexshowaction" class="${pageContext.request.contextPath}.hello.IndexShowAction" method="post">
+                                                <input type="hidden" value="${flag}">
+
+                                            </form>
                                             <div class="container-fluid">
                                                 <div class="row">
                                                     <div class="col-sm-6 col-md-4 thumbnail">
+                                                        <a href="<s:property value="#session.url1"/> ">
+                                                            <img class="img-thumbnail" alt="140x140"
+                                                                 src="${pageContext.request.contextPath}/v2.2front/images/indeximages/<s:property value="#session.imagename1"/>"
+                                                                 style="height: 150px;width: 270px "/>
+
+                                                            <p>
+                                                                <s:property value="#session.productname1"/>
+                                                                <s:property value="#session.price1"/>
+                                                            </p>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-4 thumbnail">
                                                         <img class="img-thumbnail" alt="140x140"
-                                                             src="./images/travel/xc-1-01.jpg"
+                                                             src="${pageContext.request.contextPath}/v2.2front/images/travel/xc-1-02.jpg"
                                                              style="height: 150px;width: 270px "/>
 
                                                         <p>
@@ -311,16 +327,7 @@
                                                     </div>
                                                     <div class="col-sm-6 col-md-4 thumbnail">
                                                         <img class="img-thumbnail" alt="140x140"
-                                                             src="./images/travel/xc-1-02.jpg"
-                                                             style="height: 150px;width: 270px "/>
-
-                                                        <p>
-                                                            <em>Git</em>是一个分布式的版本控制系统，最初由<strong>Linus Torvalds</strong>编写，用作Linux内核代码的管理。在推出后，Git在其它项目中也取得了很大成功，尤其是在Ruby社区中。
-                                                        </p>
-                                                    </div>
-                                                    <div class="col-sm-6 col-md-4 thumbnail">
-                                                        <img class="img-thumbnail" alt="140x140"
-                                                             src="./images/travel/xc-1-03.jpg"
+                                                             src="${pageContext.request.contextPath}/v2.2front/images/travel/xc-1-03.jpg"
                                                              style="height: 150px;width: 270px "/>
 
                                                         <p>
@@ -331,7 +338,7 @@
                                                 <div class="row">
                                                     <div class="col-sm-6 col-md-4 thumbnail">
                                                         <img class="img-thumbnail" alt="140x140"
-                                                             src="./images/travel/xc-1-04.jpg"
+                                                             src="${pageContext.request.contextPath}/v2.2front/images/travel/xc-1-04.jpg"
                                                              style="height: 150px;width: 270px "/>
 
                                                         <p>
@@ -340,7 +347,7 @@
                                                     </div>
                                                     <div class="col-sm-6 col-md-4 thumbnail">
                                                         <img class="img-thumbnail" alt="140x140"
-                                                             src="./images/travel/xc-1-05.jpg"
+                                                             src="${pageContext.request.contextPath}/v2.2front/images/travel/xc-1-05.jpg"
                                                              style="height: 150px;width: 270px "/>
 
                                                         <p>
@@ -349,7 +356,7 @@
                                                     </div>
                                                     <div class="col-sm-6 col-md-4 thumbnail">
                                                         <img class="img-thumbnail" alt="140x140"
-                                                             src="./images/travel/xc-1-06.jpg"
+                                                             src="${pageContext.request.contextPath}/v2.2front/images/travel/xc-1-06.jpg"
                                                              style="height: 150px;width: 270px "/>
 
                                                         <p>
@@ -388,6 +395,20 @@
             </div>
         </div>
     </div>
+    <%--<script>--%>
+        <%--$(function(){--%>
+            <%--window.location.href='${pageContext.request.contextPath}/indexshow/indexshowaction';--%>
+        <%--})--%>
+    <%--</script>--%>
+    <script type="text/javascript" src="js/jquery1.9.js"> </script>
+
+    <script type="text/javascript">
+        $(function($) {
+            if ($("input:first").val() == "")
+                $("form").submit();
+
+        });
+    </script>
     <!--==============================
                       footer
         =================================-->
@@ -408,7 +429,7 @@
 
 <a href="#" id="toTop" class="fa fa-chevron-up"></a>
 
-<script src="js/jquery.singlePageNav.min.js"></script>
+<script src="${pageContext.request.contextPath}/v2.2front/js/jquery.singlePageNav.min.js"></script>
 <script>
     // Prevent console.log from generating errors in IE for the purposes of the demo
     if (!window.console) console = {
@@ -556,8 +577,8 @@
     }
 </script>
 <!--[if IE]>
-<script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
-<script src="js/jquery.knob.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/v2.2front/js/excanvas.js"></script><![endif]-->
+<script src="${pageContext.request.contextPath}/v2.2front/js/jquery.knob.js"></script>
 <script>
     $(function ($) {
         $(".knob").knob({
@@ -655,6 +676,6 @@ LazyLoad.css(["css/city/cityStyle.css"], function () {
     });
 });
 </script>
-<script src="js/isotop_ini.js"></script>
+<script src="${pageContext.request.contextPath}/v2.2front/js/isotop_ini.js"></script>
 </body>
 </html>

@@ -62,32 +62,32 @@
                 <fieldset>
                     <label class="name">
                         <!--<label class="form-group"  >-->
-                        <input type="text" name="name" placeholder="Name*:" value=""
+                        <input type="text" name="registusername" placeholder="Name*:" value=""
                                data-constraints="@Required @JustLetters"/>
                         <span class="empty-message">*名字不能为空</span>
                         <span class="error-message">*名字格式不正确</span>
                     </label><br><br><br>
                     <label class="email">
-                        <input type="text" name="email" placeholder="E-mail*:" value=""
+                        <input type="text" name="mail" placeholder="E-mail*:" value=""
                                data-constraints="@Required @Email"/>
                         <span class="empty-message">*邮箱不能为空</span>
                         <span class="error-message">*邮箱格式不正确</span>
                     </label><br><br><br>
                     <label class="phone">
-                        <input type="text" name="phone" placeholder="Telephone*:" value=""
+                        <input type="text" name="telephone" placeholder="Telephone*:" value=""
                                data-constraints="@Required @JustNumbers"/>
                         <span class="empty-message">*联系方式不能为空</span>
                         <span class="error-message">*联系方式格式不正确</span>
                     </label><br><br><br>
                     <label class="password" >
                         <!--<label >-->
-                        <input type="password"  name="password" placeholder="Password*:" value=""
+                        <input type="password"  name="registpassword" placeholder="Password*:" value=""
                                data-constraints="@Required @JustNumbers" style ="width:300px;"/>
                         <span class="empty-message">*密码不能为空</span>
                         <span class="error-message">*</span>
                     </label><br><br><br>
                     <label class="password2">
-                        <input type="password" name="password2" placeholder="Password2*:" value=""
+                        <input type="password" name="registsecondpassword" placeholder="Password2*:" value=""
                                data-constraints="@Required @JustNumbers" style ="width:300px;"/>
                         <span class="empty-message">*确认密码不能为空</span>
                         <span class="error-message">*</span>
