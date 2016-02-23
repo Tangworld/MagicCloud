@@ -1,0 +1,200 @@
+
+#content-full{
+    /*width: 80%;*/
+    margin-left:auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+#current-city{
+    color: white;
+    font-size: 20px;
+    /*text-align: center;*/
+    /*padding-top: 30px;*/
+    /*margin-top: 300px;*/
+    /*border: 3px red solid;*/
+    line-height: 40px;
+    padding-right: 10px;
+}
+
+
+
+.navigation li a{
+    color: white;
+    outline: none;
+    /*border-bottom: 5px;*/
+}
+.logo_head a{
+    /*position: absolute;*/
+    /*left: 0px;*/
+    outline: none;
+}
+
+/*-----------------banner部分---------------*/
+.banner-first{          /*控制一整块高度与大小*/
+    width: 100%;
+    /*height: 530px;                   /!*这个适合全屏显示*!/*/
+
+    height: 500px;
+    /*background-color: red;*/
+    display: flex;
+    flex-flow: row;
+}
+.banner-left{
+    /*width: 14%;*/
+    flex: 14;
+    height: inherit;
+    /*background-color: red;*/
+    float:left;
+    /*display: inline;*/
+    /*border: 10px solid #FFFFFF;*/
+    /*background-color: #080808;*/
+    border-left: 5px #c9cbce solid;
+    border-right: 5px #c9cbce solid;
+
+
+}
+.banner-right{
+    /*width: 86%;*/
+    flex: 86;
+    height: inherit;
+    /*background-color: green;*/
+    float: left;
+    /*display: inline;*/
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
+    background-color: green;
+    border-right: 5px #c9cbce solid;
+    /*background-size: 100%;*/
+}
+
+
+
+
+.banner-text {              /*一整个拥有的css*/
+    background-color: rgba(20, 185, 213, 0.71);
+    width: 100%;
+    text-align: center;
+    /*position: absolute;*/
+    top: 0%;
+    right: 20%;
+    height: inherit;
+    /*z-index: 9;*/
+    /*display: inline;*/
+    /*float: left;*/
+}
+
+.logo {
+    height: 95px;
+    background-color: rgba(20, 185, 213, 0.71);
+    text-align: center;
+}
+.logo a {
+    display: block;
+}
+.logo a img {
+    width:initial;
+}
+.top-nav {
+    padding: 1em 0;
+}
+.top-nav ul {
+    margin: 0;
+}
+.top-nav ul li{
+    display:block;
+    margin: 2.2em 0;
+}
+.top-nav ul li a {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    display: block;
+}
+
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+    display: inline-block;
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;       /*移动速度与透明度变化速度*/
+    -o-transition: -o-transform 0.3s,opacity 0.2s;
+    -ms-transition:-ms-transform 0.3s, opacity 0.2s;
+    transition: transform 0.3s, opacity 0.2s;
+}
+/*----------------标签具有滑动变化css-----------------*/
+.cl-effect-1 a::before {           /*开始的位置      before与after指同一个时刻，只是为值所在的位置*/
+    margin-right: 10px;
+    content: '[';
+    -webkit-transform: translateX(20px);        /*往右边移动*/
+    -moz-transform: translateX(20px);
+    -o-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+.cl-effect-1 a::after {
+    margin-left: 10px;
+    content: ']';
+    -webkit-transform: translateX(-20px);           /*往左边移动*/
+    -moz-transform: translateX(-20px);
+    -o-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    transform: translateX(-20px);
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {                  /*目标位置*/
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+/*special部分*/
+
+.special{
+    /*border: 5px ;*/
+    background-image: url("http://img1.tuniucdn.com/img/201501041115/home/index_bg.png");
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-flow: row;
+
+    /*border: 1px #E5E5E5 solid;*/
+}
+.special-left{
+    flex: 2;
+    display: flex;
+    flex-flow: column;
+}
+.special-left-up{                        /*在不指定高度情况下是不会有颜色的*/
+    /*background-color: black;*/
+    /*background-color: #269abc;*/
+    flex: 1;
+    /*display: flex;*/
+    /*flex-flow: row;*/
+    /*box-align:start;*/
+}
+.special-left-up h2{
+    text-align: center;
+}
+.special-left-down{
+    /*background-color: #53a302;*/
+    flex: 8;
+    background-image: url("http://img3.tuniucdn.com/u/mainpic/qukuai/915481/cjdc__0111.jpg");
+}
+
+.special-right {                                 /*这里没有说高度*/
+    /*background-color: #c0a16b;*/
+    flex: 8;
+
+    height: inherit;
+    border: 1px #E5E5E5 solid;
+    margin-left: 10px;
+}

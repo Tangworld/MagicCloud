@@ -1,0 +1,35 @@
+#result-search{
+     /*display: flex;*/
+     /*flex-flow: row;*/
+     height: 500px;
+     width: 100%;
+     /*background-color: #080808;*/
+ }
+.search{
+    display: flex;
+    flex-flow: row;
+    /*background-color: #245580;*/
+    height: inherit;
+    width: inherit;
+}
+.search-left{
+    height: inherit;
+    flex: 2;
+    background-color: #c0a16b;
+}
+.search-right{
+    display: flex;
+    flex-flow: column;
+
+    height: inherit;
+    flex: 8;
+    background-color: #53a302;
+}
+.search-right-up{
+    flex: 1;
+    background-color: #28a4c9;
+}
+.search-right-down{
+    flex: 8;
+    background-color: white;
+}
