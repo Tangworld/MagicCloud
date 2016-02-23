@@ -53,5 +53,12 @@
         </action>
     </package>
 
+    <package name="admin" namespace="/admin" extends="struts2">
+        <action name="redisadminaction" class="action.RedisAdminAction" method="Query">
+            <result name="success">/moban216/search/example-dialog.jsp</result>
+            <result name="wrong">/registwrong.jsp</result>
+        </action>
+    </package>
+
 
 </struts>

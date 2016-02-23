@@ -31,9 +31,9 @@ public class FirstUrl {
 
         Jedis jedis = pool.getResource();
 
-        while(jedis.llen("firstUrl_list") != 0){
+        while(jedis.llen("firstUrls") != 0){
 
-            firstUrl = jedis.lpop("firstUrl_list");
+            firstUrl = jedis.lpop("firstUrls");
 
             try{
                 firstUrls.add(firstUrls.size(),firstUrl);
@@ -45,7 +45,7 @@ public class FirstUrl {
         }
 
         for(String url : firstUrls){
-            jedis.rpush("firstUrl_list",url);
+            jedis.rpush("firstUrls",url);
         }
 
         pool.returnResource(jedis);
@@ -54,13 +54,13 @@ public class FirstUrl {
 
 
     /**
-     * 添加url进firstUrl_list
+     * 添加url进firstUrls
      */
     public boolean addFirstUrl(String newUrl){
         Jedis jedis = pool.getResource();
 
         if(!this.existUrl(newUrl)){
-            jedis.lpush("firstUrl_list", newUrl);
+            jedis.lpush("firstUrls", newUrl);
 //            System.out.println("add IN");
             pool.returnResource(jedis);
             return true;
@@ -80,7 +80,7 @@ public class FirstUrl {
         Jedis jedis = pool.getResource();
 
         if(this.existUrl(outUrl)){
-            jedis.lrem("firstUrl_list",1,outUrl);
+            jedis.lrem("firstUrls",1,outUrl);
 //            System.out.println("ininininin");
             pool.returnResource(jedis);
             return true;
@@ -95,12 +95,12 @@ public class FirstUrl {
      */
     public boolean existUrl(String url){
         Jedis jedis = pool.getResource();
-        Long len = jedis.llen("firstUrl_list");
+        Long len = jedis.llen("firstUrls");
 
         while (len!=0){
             len = len-1;
 
-            String urlInList = jedis.rpoplpush("firstUrl_list","firstUrl_list");
+            String urlInList = jedis.rpoplpush("firstUrls","firstUrls");
             if(url.equals(urlInList)){
                 return true;
             }
