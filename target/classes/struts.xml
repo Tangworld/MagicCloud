@@ -59,6 +59,22 @@
             <result name="wrong">/registwrong.jsp</result>
         </action>
     </package>
+    <package name="adminadd" namespace="/add" extends="struts2">
+        <action name="redisadminaddaction" class="action.RedisAdminAddAction" method="add">
+            <result name="success">/moban216/search/example-dialog.jsp</result>
+        </action>
+    </package>
+    <package name="admindel" namespace="/del" extends="struts2">
+        <action name="redisadmindelaction" class="action.RedisAdminDelAction" method="del">
+            <result name="success">/moban216/search/example-dialog.jsp</result>
+        </action>
+    </package>
+    <package name="showusers" namespace="/showusers" extends="struts2">
+        <action name="showusersaction" class="action.ShowUsersAction" method="show">
+            <result name="success">/moban216/detail/introduce.jsp</result>
+        </action>
+    </package>
+
 
 
 </struts>

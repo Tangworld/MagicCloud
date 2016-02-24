@@ -15,12 +15,12 @@
   <div class="header">
     
       <div class="dl-title">
-        <a href="http://sc.chinaz.com" title="文档库地址" target="_blank"><!-- 仅仅为了提供文档的快速入口，项目中请删除链接 -->
+        <a href="#" title="文档库地址" target="_blank"><!-- 仅仅为了提供文档的快速入口，项目中请删除链接 -->
           <span class="lp-title-port">BUI</span><span class="dl-title-text">前端框架</span>
         </a>
       </div>
 
-    <div class="dl-log">欢迎您，<span class="dl-log-user">**.**@alibaba-inc.com</span><a href="###" title="退出系统" class="dl-log-quit">[退出]</a><a href="http://http://sc.chinaz.com/" title="文档库" class="dl-log-quit">文档库</a>
+    <div class="dl-log">欢迎您，<span class="dl-log-user">**.**@alibaba-inc.com</span><a href="###" title="退出系统" class="dl-log-quit">[退出]</a><a href="#" title="文档库" class="dl-log-quit">文档库</a>
     </div>
   </div>
    <div class="content">
@@ -50,7 +50,7 @@
           menu:[{
               text:'首页内容',
               items:[
-                {id:'code',text:'首页代码',href:'main/code.html',closeable : false},
+                {id:'code',text:'首页代码',href:'main/code.jsp',closeable : false},
                 {id:'main-menu',text:'顶部导航',href:'main/menu.html'},
                 {id:'second-menu',text:'右边菜单',href:'main/second-menu.html'},
                 {id:'dyna-menu',text:'动态菜单',href:'main/dyna-menu.html'}
@@ -73,9 +73,9 @@
             menu:[{
                 text:'表单页面',
                 items:[
-                  {id:'code',text:'表单代码',href:'form/code.html'},
-                  {id:'example',text:'表单示例',href:'form/example.html'},
-                  {id:'introduce',text:'表单简介',href:'form/introduce.html'},
+                  {id:'code',text:'表单代码',href:'form/code.jsp'},
+                  {id:'example',text:'表单示例',href:'form/example.jsp'},
+                  {id:'introduce',text:'表单简介',href:'form/introduce.jsp'},
                   {id:'valid',text:'表单基本验证',href:'form/basicValid.html'},
                   {id:'advalid',text:'表单复杂验证',href:'form/advalid.html'},
                   {id:'remote',text:'远程调用',href:'form/remote.html'},
@@ -103,26 +103,28 @@
             menu:[{
                 text:'搜索页面',
                 items:[
-                  {id:'code',text:'搜索页面代码',href:'search/code.html'},
-                  {id:'example',text:'搜索页面示例',href:'search/example.html'},
-                  {id:'example-dialog',text:'搜索页面编辑示例',href:'search/example-dialog.jsp'},
-                  {id:'introduce',text:'搜索页面简介',href:'search/introduce.html'}, 
-                  {id:'config',text:'搜索配置',href:'search/config.html'}
+                  {id:'code',text:'最近一次运行',href:'search/code.jsp'},
+                  {id:'example',text:'爬取参数设置',href:'search/example.jsp'},
+                  {id:'example-dialog',text:'爬取站点信息',href:'search/example-dialog.jsp'}
+//                  {id:'introduce',text:'搜索页面简介',href:'search/introduce.jsp'},
+//                  {id:'config',text:'搜索配置',href:'search/config.html'}
                 ]
-              },{
-                text : '更多示例',
-                items : [
-                  {id : 'tab',text : '使用tab过滤',href : 'search/tab.html'}
-                ]
-              }]
+              }
+//                ,{
+//                text : '',
+//                items : [
+//                  {id : 'tab',text : '使用tab过滤',href : 'search/tab.html'}
+//                ]
+//              }
+            ]
           },{
             id:'detail',
             menu:[{
                 text:'详情页面',
                 items:[
-                  {id:'code',text:'详情页面代码',href:'detail/code.html'},
-                  {id:'example',text:'详情页面示例',href:'detail/example.html'},
-                  {id:'introduce',text:'详情页面简介',href:'detail/introduce.html'}
+                  {id:'code',text:'详情页面代码',href:'detail/code.jsp'},
+                  {id:'example',text:'详情页面示例',href:'detail/example.jsp'},
+                  {id:'introduce',text:'详情页面简介',href:'detail/introduce.jsp'}
                 ]
               }]
           },{
@@ -130,7 +132,7 @@
             menu : [{
               text : '图表',
               items:[
-                  {id:'code',text:'引入代码',href:'chart/code.html'},
+                  {id:'code',text:'引入代码',href:'chart/code.jsp'},
                   {id:'line',text:'折线图',href:'chart/line.html'},
                   {id:'area',text:'区域图',href:'chart/area.html'},
                   {id:'column',text:'柱状图',href:'chart/column.html'},

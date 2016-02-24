@@ -42,13 +42,14 @@ public class MysqlRegistDao {
             e.printStackTrace();
         }
     }
-    public static void getAll() {
+    public static ResultSet getAll() {
         Connection conn = JDBCHelp.getConn();
         String sql = "select * from students";
         PreparedStatement pstmt;
+        ResultSet rs=null;
         try {
             pstmt = (PreparedStatement)conn.prepareStatement(sql);
-            ResultSet rs = pstmt.executeQuery();
+            rs = pstmt.executeQuery();
             int col = rs.getMetaData().getColumnCount();
             System.out.println("============================");
             while (rs.next()) {
@@ -64,6 +65,7 @@ public class MysqlRegistDao {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        return rs;
     }
     public static void delete(String name) {
         Connection conn = JDBCHelp.getConn();

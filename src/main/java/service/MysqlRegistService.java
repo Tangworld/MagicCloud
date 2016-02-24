@@ -3,6 +3,8 @@ package service;
 import dao.MysqlRegistDao;
 import domain.User;
 
+import java.sql.ResultSet;
+
 /**
  * Created by hadoop on 16-1-6.
  */
@@ -14,8 +16,9 @@ public class MysqlRegistService {
     public static void  update(User user,String sql){
         dao.update(user,sql);
     }
-    public static void getAll(){
-        dao.getAll();
+    public static ResultSet getAll(){
+        ResultSet rs = dao.getAll();
+        return rs;
     }
     public static void delete(String name){
         dao.delete(name);
