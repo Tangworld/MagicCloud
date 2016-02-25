@@ -4,6 +4,8 @@ import dao.MysqlRegistDao;
 import domain.User;
 
 import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
 
 /**
  * Created by hadoop on 16-1-6.
@@ -16,9 +18,9 @@ public class MysqlRegistService {
     public static void  update(User user,String sql){
         dao.update(user,sql);
     }
-    public static ResultSet getAll(){
-        ResultSet rs = dao.getAll();
-        return rs;
+    public static List<User> getAll() throws SQLException {
+        List<User> users = dao.getAll();
+        return users;
     }
     public static void delete(String name){
         dao.delete(name);

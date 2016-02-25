@@ -16,11 +16,11 @@
     
       <div class="dl-title">
         <a href="#" title="文档库地址" target="_blank"><!-- 仅仅为了提供文档的快速入口，项目中请删除链接 -->
-          <span class="lp-title-port">BUI</span><span class="dl-title-text">前端框架</span>
+          <span class="lp-title-port">MagicCloud</span><span class="dl-title-text">旅游比价系统后台</span>
         </a>
       </div>
 
-    <div class="dl-log">欢迎您，<span class="dl-log-user">**.**@alibaba-inc.com</span><a href="###" title="退出系统" class="dl-log-quit">[退出]</a><a href="#" title="文档库" class="dl-log-quit">文档库</a>
+    <div class="dl-log">欢迎您，<span class="dgitl-log-user">**.**@alibaba-inc.com</span><a href="###" title="退出系统" class="dl-log-quit">[退出]</a><a href="#" title="文档库" class="dl-log-quit">文档库</a>
     </div>
   </div>
    <div class="content">
@@ -31,7 +31,7 @@
         <li class="nav-item"><div class="nav-item-inner nav-order">集群运行情况</div></li>
         <li class="nav-item"><div class="nav-item-inner nav-inventory">网站信息管理</div></li>
         <li class="nav-item"><div class="nav-item-inner nav-supplier">用户信息管理</div></li>
-        <li class="nav-item"><div class="nav-item-inner nav-marketing">流量监控</div></li>
+        <%--<li class="nav-item"><div class="nav-item-inner nav-marketing">流量监控</div></li>--%>
       </ul>
     </div>
     <ul id="J_NavContent" class="dl-tab-conten">
@@ -101,7 +101,7 @@
           },{
             id:'search',
             menu:[{
-                text:'搜索页面',
+                text:'网站信息管理页面',
                 items:[
                   {id:'code',text:'最近一次运行',href:'search/code.jsp'},
                   {id:'example',text:'爬取参数设置',href:'search/example.jsp'},
@@ -120,11 +120,11 @@
           },{
             id:'detail',
             menu:[{
-                text:'详情页面',
+                text:'用户信息管理页面',
                 items:[
-                  {id:'code',text:'详情页面代码',href:'detail/code.jsp'},
-                  {id:'example',text:'详情页面示例',href:'detail/example.jsp'},
-                  {id:'introduce',text:'详情页面简介',href:'detail/introduce.jsp'}
+//                  {id:'code',text:'详情页面代码',href:'detail/code.jsp'},
+//                  {id:'example',text:'详情页面示例',href:'detail/example.jsp'},
+                  {id:'introduce',text:'用户基本信息',href:'detail/introduce.jsp'}
                 ]
               }]
           },{

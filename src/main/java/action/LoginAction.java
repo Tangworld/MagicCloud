@@ -52,7 +52,7 @@ public class LoginAction extends ActionSupport{
         } catch (Exception e) {
             e.printStackTrace();
         }
-        ServletActionContext.getRequest().getSession().setAttribute("login","欢迎您，"+username);
+        ServletActionContext.getRequest().getSession().setAttribute("login",username);
         return SUCCESS;
     }
 }

@@ -74,6 +74,16 @@
             <result name="success">/moban216/detail/introduce.jsp</result>
         </action>
     </package>
+    <package name="setpriority" namespace="/setpriority" extends="struts2">
+        <action name="setpriorityaction" class="action.SetPriorityAction" method="update">
+            <result name="success">/moban216/detail/introduce.jsp</result>
+        </action>
+    </package>
+    <package name="searchperson" namespace="/searchperson" extends="struts2">
+        <action name="searchpersonaction" class="action.SearchPersonAction" method="FindUserByName">
+            <result name="success">/personalcenter/form/code.jsp</result>
+        </action>
+    </package>
 
 
 

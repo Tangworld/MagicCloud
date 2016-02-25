@@ -1,0 +1,242 @@
+@charset "UTF-8";
+body a:hover {
+  color: #FF6000; }
+
+#special {
+  margin-top: 5rem;
+  background-image: url("http://img1.tuniucdn.com/img/201501041115/home/index_bg.png");
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-flow: row; }
+  #special .special-left {
+    flex: 2;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 5px 5px 5px #888888; }
+    #special .special-left .special-left-up {
+      /*在不指定高度情况下是不会有颜色的*/
+      flex: 1; }
+      #special .special-left .special-left-up h3 {
+        font-size: 2.7rem;
+        text-align: center; }
+    #special .special-left .special-left-down {
+      flex: 8;
+      background-image: url("http://img3.tuniucdn.com/u/mainpic/qukuai/915481/cjdc__0111.jpg"); }
+  #special .special-right {
+    flex: 8;
+    height: inherit;
+    border: 1px #E5E5E5 solid;
+    margin-left: 10px;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 5px 5px 5px #888888; }
+    #special .special-right .special-right-up {
+      flex: 1;
+      background-image: url("../../images/travel/flight.jpg"); }
+      #special .special-right .special-right-up p {
+        text-align: center;
+        line-height: 6rem;
+        font-size: 2.7rem;
+        font-family: 禹卫书法隶书简体; }
+    #special .special-right .special-right-down {
+      margin-top: 4rem;
+      flex: 8; }
+      #special .special-right .special-right-down .message {
+        margin-right: 2.8rem;
+        margin-left: 2.8rem; }
+      #special .special-right .special-right-down .price {
+        color: #FF6000;
+        float: right;
+        margin-right: 2.8rem; }
+
+#domestic .special {
+  background-image: url("http://img1.tuniucdn.com/img/201501041115/home/index_bg.png");
+  margin-top: 5rem;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-flow: row; }
+  #domestic .special .special-left {
+    flex: 2;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 5px 5px 5px #888888; }
+    #domestic .special .special-left .special-left-up {
+      flex: 1; }
+      #domestic .special .special-left .special-left-up h3 {
+        font-size: 2.7rem;
+        text-align: center; }
+    #domestic .special .special-left .special-left-down {
+      flex: 8;
+      background-image: url("http://img3.tuniucdn.com/u/mainpic/qukuai/915481/cjdc__0111.jpg"); }
+  #domestic .special .special-right {
+    flex: 8;
+    height: inherit;
+    border: 1px #E5E5E5 solid;
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px #888888; }
+    #domestic .special .special-right .nav-tabs {
+      font-size: 1.7rem;
+      margin-top: 1rem; }
+      #domestic .special .special-right .nav-tabs .active a {
+        color: #FF6000; }
+      #domestic .special .special-right .nav-tabs a {
+        outline: none;
+        color: #28a4c9; }
+        #domestic .special .special-right .nav-tabs a:hover {
+          color: #FF6000; }
+    #domestic .special .special-right .tab-pane {
+      margin-top: 2rem; }
+      #domestic .special .special-right .tab-pane .message {
+        margin-right: 2rem;
+        margin-left: 2rem; }
+      #domestic .special .special-right .tab-pane .price {
+        color: #FF6000;
+        float: right;
+        margin-right: 2rem; }
+
+#world .special {
+  background-image: url("http://img1.tuniucdn.com/img/201501041115/home/index_bg.png");
+  margin-top: 5rem;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-flow: row; }
+  #world .special .special-left {
+    flex: 2;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 5px 5px 5px #888888; }
+    #world .special .special-left .special-left-up {
+      flex: 1; }
+      #world .special .special-left .special-left-up h3 {
+        font-size: 2.7rem;
+        text-align: center; }
+    #world .special .special-left .special-left-down {
+      flex: 8;
+      background-image: url("http://img3.tuniucdn.com/u/mainpic/qukuai/915481/cjdc__0111.jpg"); }
+  #world .special .special-right {
+    flex: 8;
+    height: inherit;
+    border: 1px #E5E5E5 solid;
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px #888888; }
+    #world .special .special-right .nav-tabs {
+      font-size: 1.7rem;
+      margin-top: 1rem; }
+      #world .special .special-right .nav-tabs .active a {
+        color: #FF6000; }
+      #world .special .special-right .nav-tabs a {
+        outline: none;
+        color: #28a4c9; }
+        #world .special .special-right .nav-tabs a:hover {
+          color: #FF6000; }
+    #world .special .special-right .tab-pane {
+      margin-top: 2rem; }
+      #world .special .special-right .tab-pane .message {
+        margin-right: 2rem;
+        margin-left: 2rem; }
+      #world .special .special-right .tab-pane .price {
+        color: #FF6000;
+        float: right;
+        margin-right: 2rem; }
+
+#around {
+  background-image: url("http://img1.tuniucdn.com/img/201501041115/home/index_bg.png");
+  margin-top: 5rem;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-flow: row; }
+  #around .special-left {
+    flex: 2;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 5px 5px 5px #888888; }
+    #around .special-left .special-left-up {
+      /*在不指定高度情况下是不会有颜色的*/
+      flex: 1; }
+      #around .special-left .special-left-up h3 {
+        font-size: 2.7rem;
+        text-align: center; }
+    #around .special-left .special-left-down {
+      flex: 8;
+      background-image: url("http://img3.tuniucdn.com/u/mainpic/qukuai/915481/cjdc__0111.jpg"); }
+  #around .special-right {
+    flex: 8;
+    height: inherit;
+    border: 1px #E5E5E5 solid;
+    margin-left: 10px;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 5px 5px 5px #888888; }
+    #around .special-right .special-right-up {
+      flex: 1;
+      background-image: url("../../images/travel/flight.jpg"); }
+      #around .special-right .special-right-up p {
+        text-align: center;
+        line-height: 6rem;
+        font-size: 2.7rem;
+        font-family: 禹卫书法隶书简体; }
+    #around .special-right .special-right-down {
+      margin-top: 4rem;
+      flex: 8; }
+      #around .special-right .special-right-down .message {
+        margin-right: 2.8rem;
+        margin-left: 2.8rem; }
+      #around .special-right .special-right-down .price {
+        color: #FF6000;
+        float: right;
+        margin-right: 2.8rem; }
+
+#travel-article {
+  background-image: url("http://img1.tuniucdn.com/img/201501041115/home/index_bg.png");
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-flow: row; }
+  #travel-article .special-left {
+    flex: 2;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 5px 5px 5px #888888; }
+    #travel-article .special-left .special-left-up {
+      /*在不指定高度情况下是不会有颜色的*/
+      flex: 1; }
+      #travel-article .special-left .special-left-up h3 {
+        font-size: 2.7rem;
+        text-align: center; }
+    #travel-article .special-left .special-left-down {
+      flex: 8;
+      background-image: url("http://img3.tuniucdn.com/u/mainpic/qukuai/915481/cjdc__0111.jpg"); }
+  #travel-article .special-right {
+    flex: 8;
+    height: inherit;
+    border: 1px #E5E5E5 solid;
+    margin-left: 10px;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 5px 5px 5px #888888; }
+    #travel-article .special-right .special-right-up {
+      flex: 1;
+      background-image: url("../../images/travel/flight.jpg"); }
+      #travel-article .special-right .special-right-up p {
+        text-align: center;
+        line-height: 6rem;
+        font-size: 2.7rem;
+        font-family: 禹卫书法隶书简体; }
+    #travel-article .special-right .special-right-down {
+      margin-top: 4rem;
+      flex: 8; }
+      #travel-article .special-right .special-right-down .message {
+        margin-right: 2.8rem;
+        margin-left: 2.8rem; }
+      #travel-article .special-right .special-right-down .price {
+        color: #FF6000;
+        float: right;
+        margin-right: 2.8rem; }
+
+/*# sourceMappingURL=special.css.map */
