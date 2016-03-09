@@ -1,5 +1,6 @@
 package dao;
 
+import com.google.common.annotations.VisibleForTesting;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.HColumnDescriptor;
@@ -15,6 +16,7 @@ import java.io.IOException;
  */
 public class RegistDao {
     public static Configuration cfg;
+
     //静态代码块，初始化信息
     static {
         cfg = HBaseConfiguration.create();
@@ -27,11 +29,10 @@ public class RegistDao {
     //建表
     public static void create(String tablename, String columnFamily) throws Exception {
         HBaseAdmin admin = new HBaseAdmin(cfg);
-        if(admin.tableExists(tablename)) {
+        if (admin.tableExists(tablename)) {
             System.out.println("table exists!");
             System.exit(0);
-        }
-        else {
+        } else {
             HTableDescriptor tableDesc = new HTableDescriptor(tablename);
             tableDesc.addFamily(new HColumnDescriptor(columnFamily));
             admin.createTable(tableDesc);
@@ -40,14 +41,14 @@ public class RegistDao {
     }
 
     //存数据
-    public static void put(String tablename, String row, String columnFamily, String column, String data) throws Exception{
+    public static void put(String tablename, String row, String columnFamily, String column, String data) throws Exception {
 //        HTable table = new HTable(cfg, tablename);
         HConnection connection = HConnectionManager.createConnection(cfg);
         HTableInterface table = connection.getTable(tablename);
         Put p1 = new Put(Bytes.toBytes(row));
         p1.add(Bytes.toBytes(columnFamily), Bytes.toBytes(column), Bytes.toBytes(data));
         table.put(p1);
-        System.out.println("put '"+row+"', '"+columnFamily+":"+column+"', '"+data+"'");
+        System.out.println("put '" + row + "', '" + columnFamily + ":" + column + "', '" + data + "'");
         table.close();
         connection.close();
     }
@@ -68,12 +69,13 @@ public class RegistDao {
             System.out.println("列族名:" + new String(rowKV.getFamily()) + " ");
             System.out.println("列名:" + new String(rowKV.getQualifier()) + " ");
             value = new String(rowKV.getValue());
-            System.out.println("值:" +result );
+            System.out.println("值:" + result);
         }
         table.close();
         connection.close();
         return value;
     }
+
     public static void scan(String tablename) throws Exception {
 //        HTable table = new HTable(cfg, tablename);
         HConnection connection = HConnectionManager.createConnection(cfg);
@@ -98,7 +100,7 @@ public class RegistDao {
 
     public static boolean delete(String tablename) throws IOException {
         HBaseAdmin admin = new HBaseAdmin(cfg);
-        if(admin.tableExists(tablename)) {
+        if (admin.tableExists(tablename)) {
             try {
                 admin.disableTable(tablename);
                 admin.deleteTable(tablename);
@@ -110,4 +112,5 @@ public class RegistDao {
         }
         return true;
     }
+
 }

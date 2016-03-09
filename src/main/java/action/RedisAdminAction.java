@@ -46,6 +46,7 @@ public class RedisAdminAction extends ActionSupport {
         this.AddUrl(newUrl);
     }
 
+
     public String Query(){
        // System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaa");
         List<String> NameUrls = redisAdminService.Query();

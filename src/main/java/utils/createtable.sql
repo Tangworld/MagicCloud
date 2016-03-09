@@ -4,5 +4,6 @@ CREATE TABLE `users` (
         `password` varchar(20),
         `telephone` varchar(20),
         `email`  varchar(30),
+        `priority`  varchar(30),
         PRIMARY KEY (`id`)
         );

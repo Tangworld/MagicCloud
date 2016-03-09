@@ -1,0 +1,155 @@
+@charset "UTF-8";
+#content-full {
+  /*width: 80%;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%; }
+
+#current-city {
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+  padding-right: 10px; }
+
+#home {
+  /*-----------------banner部分图标与导航---------------*/ }
+  #home .navigation li {
+    color: white;
+    outline: none; }
+  #home .navigation a {
+    color: white;
+    outline: none; }
+  #home .navigation .logo_head a {
+    outline: none; }
+  #home .modal-dialog-mask {
+    z-index: 9998;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.1;
+    filter: alpha(opacity=40);
+    /*用于支持IE特么的有病*/
+    display: none; }
+  #home #login {
+    z-index: 9999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /*width:660px;*/
+    /*height:360px;*/
+    margin: -180px 0 0 -330px;
+    border-radius: 5px;
+    border: solid 2px #666;
+    background-color: #fff;
+    display: none;
+    box-shadow: 0 0 10px #666; }
+  #home #register {
+    z-index: 9999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /*width:660px;*/
+    /*height:360px;*/
+    margin: -250px 0 0 -330px;
+    border-radius: 5px;
+    border: solid 2px #666;
+    background-color: #fff;
+    display: none;
+    box-shadow: 0 0 10px #666; }
+  #home .banner-first {
+    /*控制一整块高度与大小*/
+    width: 100%;
+    height: 500px;
+    /*background-color: red;*/
+    display: flex;
+    flex-flow: row;
+    box-shadow: 5px 5px 5px #888888; }
+    #home .banner-first .banner-left {
+      /*width: 14%;*/
+      flex: 14;
+      height: inherit;
+      /*background-color: red;*/
+      float: left; }
+      #home .banner-first .banner-left .banner-text {
+        /*一整个拥有的css*/
+        background-color: rgba(20, 185, 213, 0.71);
+        width: 100%;
+        text-align: center;
+        /*position: absolute;*/
+        top: 0%;
+        right: 20%;
+        height: inherit; }
+        #home .banner-first .banner-left .banner-text .logo {
+          height: 95px;
+          text-align: center; }
+        #home .banner-first .banner-left .banner-text .top-nav {
+          padding: 1em 0; }
+          #home .banner-first .banner-left .banner-text .top-nav ul {
+            margin: 0; }
+            #home .banner-first .banner-left .banner-text .top-nav ul li {
+              padding-top: 1rem;
+              padding-bottom: 1rem;
+              display: block;
+              margin: 1em 0; }
+              #home .banner-first .banner-left .banner-text .top-nav ul li:hover {
+                background-color: rgba(20, 185, 213, 0.71); }
+              #home .banner-first .banner-left .banner-text .top-nav ul li a {
+                color: #FFFFFF;
+                font-size: 1.5em;
+                display: block; }
+          #home .banner-first .banner-left .banner-text .top-nav .cl-effect-1 a::before, #home .banner-first .banner-left .banner-text .top-nav .cl-effect-1 a::after {
+            display: inline-block;
+            opacity: 0;
+            -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+            -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+            /*移动速度与透明度变化速度*/
+            -o-transition: -o-transform 0.3s, opacity 0.2s;
+            -ms-transition: -ms-transform 0.3s, opacity 0.2s;
+            transition: transform 0.3s, opacity 0.2s; }
+          #home .banner-first .banner-left .banner-text .top-nav .cl-effect-1 a::before {
+            /*开始的位置      before与after指同一个时刻，只是为值所在的位置*/
+            margin-right: 10px;
+            content: '[';
+            -webkit-transform: translateX(20px);
+            /*往右边移动*/
+            -moz-transform: translateX(20px);
+            -o-transform: translateX(20px);
+            -ms-transform: translateX(20px);
+            transform: translateX(20px); }
+          #home .banner-first .banner-left .banner-text .top-nav .cl-effect-1 a::after {
+            margin-left: 10px;
+            content: ']';
+            -webkit-transform: translateX(-20px);
+            /*往左边移动*/
+            -moz-transform: translateX(-20px);
+            -o-transform: translateX(-20px);
+            -ms-transform: translateX(-20px);
+            transform: translateX(-20px); }
+          #home .banner-first .banner-left .banner-text .top-nav .cl-effect-1 a:hover::before,
+          #home .banner-first .banner-left .banner-text .top-nav .cl-effect-1 a:hover::after,
+          #home .banner-first .banner-left .banner-text .top-nav .cl-effect-1 a:focus::before,
+          #home .banner-first .banner-left .banner-text .top-nav .cl-effect-1 a:focus::after {
+            /*目标位置*/
+            opacity: 1;
+            -webkit-transform: translateX(0px);
+            -moz-transform: translateX(0px);
+            -o-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+            transform: translateX(0px); }
+          #home .banner-first .banner-left .banner-text .top-nav .cl-effect-1 a:hover {
+            color: #333333; }
+          #home .banner-first .banner-left .banner-text .top-nav .cl-effect-1 a:focus {
+            outline: none; }
+    #home .banner-first .banner-right {
+      flex: 86;
+      height: inherit;
+      float: left; }
+      #home .banner-first .banner-right img {
+        display: block;
+        margin: auto;
+        height: 500px; }
+
+/*# sourceMappingURL=index.css.map */
