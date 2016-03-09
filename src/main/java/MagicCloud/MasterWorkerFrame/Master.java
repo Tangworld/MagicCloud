@@ -3,8 +3,6 @@ package MagicCloud.MasterWorkerFrame;
 /**
  * Created by sl on 16-1-1.
  */
-import MagicCloud.MasterWorkerFrame.ChildrenCache;
-import MagicCloud.MasterWorkerFrame.Worker;
 import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.WatchedEvent;
 import org.apache.zookeeper.Watcher;
@@ -23,7 +21,8 @@ import static org.apache.zookeeper.CreateMode.PERSISTENT;
 import static org.apache.zookeeper.KeeperException.*;
 import static org.apache.zookeeper.ZooDefs.Ids.OPEN_ACL_UNSAFE;
 
-public class Master implements Watcher {
+public class
+        Master implements Watcher {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(Master.class);
     private static String MASTER_PATH = "/master";

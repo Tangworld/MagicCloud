@@ -73,9 +73,15 @@
             menu:[{
                 text:'表单页面',
                 items:[
+<<<<<<< HEAD
                   {id:'code',text:'表单代码',href:'form/code.jsp'},
                   {id:'example',text:'表单示例',href:'form/example.jsp'},
                   {id:'introduce',text:'表单简介',href:'form/introduce.jsp'},
+=======
+                  {id:'code',text:'结点运行状态',href:'form/code.html'},
+                  {id:'example',text:'表单示例',href:'form/example.html'},
+                  {id:'introduce',text:'表单简介',href:'form/introduce.html'},
+>>>>>>> zqh/master
                   {id:'valid',text:'表单基本验证',href:'form/basicValid.html'},
                   {id:'advalid',text:'表单复杂验证',href:'form/advalid.html'},
                   {id:'remote',text:'远程调用',href:'form/remote.html'},

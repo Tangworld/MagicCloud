@@ -284,7 +284,7 @@ public class Client implements Watcher, Closeable {
         }
 
 
-
+        c.task1.setTaskName("test111111");
         c.submitTask("foo", c.task1);
         c.submitTask("bar", c.task2);
 

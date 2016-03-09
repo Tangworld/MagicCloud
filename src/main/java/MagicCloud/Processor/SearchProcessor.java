@@ -20,10 +20,6 @@ public class SearchProcessor implements PageProcessor {
 
 
 
-
-
-
-
     public void process(Page page) {
 
 
