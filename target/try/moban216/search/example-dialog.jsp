@@ -245,7 +245,6 @@
               <td><s:property value="url"/></td>
           </tr>
 
-          <tr>tesing</tr>
       </s:iterator>
   </table>
 

@@ -1,5 +1,6 @@
 package MagicCloud.MasterWorkerFrame;
 
+import MagicCloud.StartSpider;
 import org.apache.zookeeper.*;
 import org.apache.zookeeper.data.Stat;
 import org.slf4j.Logger;
@@ -180,6 +181,25 @@ public class Worker implements Watcher, Closeable {
         zk.getChildren("/assign/" + name, newTaskWatcher, tasksGetChildrenCallback, null);
     }
 
+
+    /**
+     * zqh:test
+     */
+    void getTaskData(String taskString) throws KeeperException, InterruptedException {
+
+        AsyncCallback.DataCallback callback = null;
+        Client.TaskObject taskObject = new Client.TaskObject();
+        zk.getData("/assign/worker-" + serverId + "/" + taskString,false,callback,taskObject);
+        System.out.println(zk.getData("/assign/worker-" + serverId + "/"+ taskString,null,null));
+        System.out.println(taskObject.getTask()+" "+taskObject.getTaskName());
+        StartSpider spider = new StartSpider(taskObject.getTaskName(),"localhost");
+        spider.start();
+
+    }
+
+
+
+
     ChildrenCallback tasksGetChildrenCallback = new ChildrenCallback() {
 //        @Override
         public void processResult(int rc, String path, Object ctx, List<String> children) {
@@ -243,11 +263,22 @@ public class Worker implements Watcher, Closeable {
 
                         public void run() {
                             LOGGER.info("Executing your task: " + new String(data));
+
+//                            String taskName = ctx.getTaskName();
+                            try {
+                                getTaskData((String)ctx);
+                            } catch (KeeperException e) {
+                                e.printStackTrace();
+                            } catch (InterruptedException e) {
+                                e.printStackTrace();
+                            }
+
+
                             // 创建任务执行状态为dome
-                            zk.create("/status/" + (String) ctx, "done".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE,
+                            zk.create("/status/" + ctx, "done".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE,
                                     CreateMode.PERSISTENT, taskStatusCreateCallback, null);
                             // 删除Worker下的任务分配
-                            zk.delete("/assign/worker-" + serverId + "/" + (String) ctx,
+                            zk.delete("/assign/worker-" + serverId + "/" +  ctx,
                                     -1, taskVoidCallback, null);
                         }
                     }.init(data, ctx));
@@ -301,7 +332,7 @@ public class Worker implements Watcher, Closeable {
     }
 
     public static void main(String[] args) throws Exception {
-        Worker w = new Worker("localhost:2182");
+        Worker w = new Worker("localhost:2183");
         w.start();
 
         while (!w.isConnected()) {

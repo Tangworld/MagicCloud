@@ -73,7 +73,7 @@
             menu:[{
                 text:'表单页面',
                 items:[
-                  {id:'code',text:'表单代码',href:'form/code.html'},
+                  {id:'code',text:'结点运行状态',href:'form/code.html'},
                   {id:'example',text:'表单示例',href:'form/example.html'},
                   {id:'introduce',text:'表单简介',href:'form/introduce.html'},
                   {id:'valid',text:'表单基本验证',href:'form/basicValid.html'},
