@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../jquery.js"></script>
+    <!--<script src="./sendCity.js"></script>-->
+</head>
+<body>
+    <form id="form">
+        <input name="data" type="text">
+        <input type="button" value="提交" id="submit">
+    </form>
+    <div id="result"></div>
+
+    <!--<div id="myDiv"><h2>通过 AJAX 改变文本</h2></div>-->
+    <!--<button id="b01" type="button">改变内容</button>-->
+
+    <script>
+        $("#submit").click(function(){
+            $.ajax({
+                url:'demo.php',
+                type:"POST",
+                data:$('#form').serialize(),
+                success: function(data) {
+                    $("#result").text(data);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

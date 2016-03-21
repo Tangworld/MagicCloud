@@ -61,8 +61,8 @@ p.offset__1 {
 
 input,
 textarea {
-    border-radius: 0 !important;
-    outline: none !important;
+    /*border-radius: 0 !important;*/
+    /*outline: none !important;*/
     -webkit-appearance: none;
 }
 
@@ -88,7 +88,7 @@ h2 {
     text-align: center;
     font-size: 60px;
     line-height: 40px;
-    padding-top: 99px;
+    /*padding-top: 99px;*/
     margin-bottom: 32px;
 }
 
@@ -133,7 +133,7 @@ a {
 a:hover {
      /*color: #287e7d;*/
      /*color: black;*/
-     color: white    !important;
+     /*color: white    !important;*/
  }
 
 .st- {
@@ -241,7 +241,7 @@ header {
     display: block;
     position: relative;
     z-index: 700;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 header .rel {
@@ -250,7 +250,7 @@ header .rel {
 
 header h1 {
     z-index: 999;
-    float: left;
+    /*float: left;*/
     font: 300 45px/30px 'Open Sans Condensed', sans-serif;
 }
 

@@ -45,8 +45,8 @@
 /*}*/
 
 .form {
-    width: 100%;
-    max-width: 500px;
+    width: 80%;
+    /*max-width: 80%;*/
     height: 275px;
     margin: 25px auto 0px auto;
     padding-top: 25px;
@@ -72,7 +72,8 @@ float : left;
 }
 
 .form-group {
-    margin-bottom: 50px !important;     /*提高优先级*/
+    margin-top: 70px;
+    /*margin-bottom: 50px !important;     /!*提高优先级*!/*/
 }
 
 .login-title {
