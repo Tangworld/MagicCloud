@@ -4,97 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7c96029-c081-480c-b47a-4bc3e82c9e11" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Processor/DiyProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/main.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/AdminClient.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/AdminClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/ChildrenCache.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/ChildrenCache.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$1.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$2.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$3.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$4.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$5.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$6.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$TaskObject.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client$TaskObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Client.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/utils/CreateData.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/utils/CreateData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/utils/CreateTable.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/utils/CreateTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/FirstUrl.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/FirstUrl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/dao/HbaseDao.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/dao/HbaseDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Pipeline/HbasePipeline.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Pipeline/HbasePipeline.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/service/HbaseService.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/service/HbaseService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/hello/HelloAction.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/hello/HelloAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/utils/Help.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/utils/Help.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/utils/JDBCHelp.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/utils/JDBCHelp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/action/LoginAction.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/action/LoginAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/dao/LoginDao.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/dao/LoginDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/service/LoginService.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/service/LoginService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$1.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$10.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$11.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$12.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$13.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$14.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$2.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$3.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$4.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$5.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$6.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$7.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$8.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$9.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$MasterStates.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master$MasterStates.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Master.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/dao/MysqlLoginDao.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/dao/MysqlLoginDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/service/MysqlLoginService.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/service/MysqlLoginService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/dao/MysqlRegistDao.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/dao/MysqlRegistDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/service/MysqlRegistService.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/service/MysqlRegistService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/dao/PageShowDao.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/dao/PageShowDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/domain/RedisAdmin.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/domain/RedisAdmin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/action/RedisAdminAction.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/action/RedisAdminAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/dao/RedisAdminDao.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/dao/RedisAdminDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/service/RedisAdminService.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/service/RedisAdminService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Scheduler/RedisScheduler.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Scheduler/RedisScheduler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/action/RegistAction.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/action/RegistAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/RegistDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/RegistDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/dao/RegistDao.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/dao/RegistDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/service/RegistService.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/service/RegistService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/action/ResultAction.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/action/ResultAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Processor/RulesProcessor.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Processor/RulesProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Processor/SearchProcessor.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Processor/SearchProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Spider$1.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Spider$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Spider$Status.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Spider$Status.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Spider.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Spider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MagicCloud/StartSpider.class" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/StartSpider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/StartSpider.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/StartSpider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/hello/Student.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/hello/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/TaskToClient$1.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/TaskToClient$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/TaskToClient.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/TaskToClient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Downloader/TuniuDownloader.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Downloader/TuniuDownloader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Processor/TuniuProcessor.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Processor/TuniuProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/domain/User.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/domain/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$1.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$2.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$3.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$4.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$5$1.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$5$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$5.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$6$1.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$6$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$6.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$7.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$8.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$9.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Worker.class" afterPath="$PROJECT_DIR$/target/classes/MagicCloud/MasterWorkerFrame/Worker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/MasterWorkerFrame/Worker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Processor/answerSpider.class" afterPath="$PROJECT_DIR$/target/try/WEB-INF/classes/MagicCloud/Processor/answerSpider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/try/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/RegistDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/RegistDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MagicCloud/StartSpider.java" afterPath="$PROJECT_DIR$/src/main/java/MagicCloud/StartSpider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/moban216/admin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/moban216/admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/moban216/admin.jsp" afterPath="$PROJECT_DIR$/target/try/moban216/admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/try/moban216/search/example-dialog.jsp" afterPath="$PROJECT_DIR$/target/try/moban216/search/example-dialog.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c7c96029-c081-480c-b47a-4bc3e82c9e11" name="Default" comment="" />
     <ignored path="try.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -135,8 +45,8 @@
       <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/moban216/admin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13333334">
-              <caret line="143" column="12" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.22">
+              <caret line="145" column="12" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -270,9 +180,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1301" />
-    <option name="height" value="772" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -299,7 +209,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -646,6 +555,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1293,14 +1203,15 @@
       <workItem from="1457864460467" duration="1413000" />
       <workItem from="1458390335321" duration="532000" />
       <workItem from="1458549959270" duration="20000" />
+      <workItem from="1458550198765" duration="601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145330000" />
+    <option name="totallyTimeSpent" value="145931000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1708,8 +1619,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/moban216/admin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13333334">
-          <caret line="143" column="12" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.22">
+          <caret line="145" column="12" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
           <folding />
         </state>
       </provider>
