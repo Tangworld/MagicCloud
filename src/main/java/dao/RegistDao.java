@@ -1,6 +1,5 @@
 package dao;
 
-import com.google.common.annotations.VisibleForTesting;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.HColumnDescriptor;
@@ -100,15 +99,13 @@ public class RegistDao {
 
     public static boolean delete(String tablename) throws IOException {
         HBaseAdmin admin = new HBaseAdmin(cfg);
-        if (admin.tableExists(tablename)) {
-            try {
-                admin.disableTable(tablename);
-                admin.deleteTable(tablename);
-            } catch (Exception e) {
-                // TODO: handle exception
-                e.printStackTrace();
-                return false;
-            }
+        if (admin.tableExists(tablename)) try {
+            admin.disableTable(tablename);
+            admin.deleteTable(tablename);
+        } catch (Exception e) {
+            // TODO: handle exception
+            e.printStackTrace();
+            return false;
         }
         return true;
     }
