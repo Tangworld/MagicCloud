@@ -11,7 +11,7 @@
 
 
 .city-box {
-    position: absolute;
+    position: fixed;
     z-index: 9999;
     background: #fff;
     border: 2px solid #c9cbce;
@@ -109,7 +109,7 @@
 
 .provence span:hover, .prov-city li:hover, #js_provCitys li:hover {
     background: #f3f3f3;
-    color: #53a302;
+    color: #FF6000;
 }
 
 .prov-city p {

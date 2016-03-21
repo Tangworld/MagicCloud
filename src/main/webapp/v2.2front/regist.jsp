@@ -57,7 +57,7 @@
     </div>
     <div class="grid_6">
         <div class="test" style="align-self: center">
-            <form id="contact-form" action="${pageContext.request.contextPath}/regist/registaction" class="${pageContext.request.contextPath}.action.RegistAction" method="post">
+            <form id="contact-form">
                 <div class="contact-form-loader"></div>
                 <fieldset>
                     <label class="name">
