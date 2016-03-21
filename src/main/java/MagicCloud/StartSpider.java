@@ -1,7 +1,9 @@
 package MagicCloud;
 
+import MagicCloud.Pipeline.HbasePipeline;
 import MagicCloud.Processor.RulesProcessor;
 import MagicCloud.Processor.SearchProcessor;
+import MagicCloud.Processor.TuniuProcessor;
 import us.codecraft.webmagic.pipeline.JsonFilePipeline;
 import us.codecraft.webmagic.scheduler.RedisScheduler;
 
@@ -10,11 +12,11 @@ import us.codecraft.webmagic.scheduler.RedisScheduler;
  */
 public class StartSpider {
 
-    private String startUrl;
+    private static String startUrl;
 
-    private String taskName;
+    private static String taskName;
 
-    private String host;
+    private static String host;
 
     public StartSpider(String taskName,String host){
 
@@ -26,14 +28,20 @@ public class StartSpider {
 
     }
 
-    public void start(){
+    public static void start(){
 
 
-//        Spider.create(new RulesProcessor(taskName,host)).addUrl(startUrl)
-//                .run();
+        Spider.create(new SearchProcessor()).addUrl("www.tuniu.com")
+//                .addPipeline(new HbasePipeline())
+                .run();
         System.out.println("任务执行。。。"+taskName);
 
     }
+
+    public static void main(String args[]){
+        start();
+    }
+
 
 
 
